@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="45e76204-7faa-49b7-8ec8-15dc1392a121" name="Changes" comment="Home work 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.BookServiceTest.executor": "Run",
+    "JUnit.ContactServiceTest.executor": "Run",
+    "JUnit.ContactServiceTest.getContactByName.executor": "Run",
     "JUnit.ShopTest.executor": "Run",
     "JUnit.ShopTest.getMostExpensiveProduct.executor": "Run",
     "JUnit.VehicleTest.has2Wheels.executor": "Run",
@@ -63,11 +64,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavel\Desktop\Учеба\Курсы\Unit-tests_lessons\Home_work_1\src\test\java\HW_5" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="HW_1.Calculations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookServiceTest">
+  <component name="RunManager" selected="JUnit.ContactServiceTest.getContactByName">
     <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Home_work_1" />
       <extension name="coverage">
@@ -83,6 +87,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home_work_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW_5" />
+      <option name="MAIN_CLASS_NAME" value="HW_5.ContactServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactServiceTest.getContactByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home_work_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HW_5" />
+      <option name="MAIN_CLASS_NAME" value="HW_5.ContactServiceTest" />
+      <option name="METHOD_NAME" value="getContactByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VehicleTest.has2Wheels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Home_work_1" />
       <extension name="coverage">
@@ -94,38 +129,6 @@
       <option name="PACKAGE_NAME" value="HW_2" />
       <option name="MAIN_CLASS_NAME" value="HW_2.VehicleTest" />
       <option name="METHOD_NAME" value="has2Wheels" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.has4Wheels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Home_work_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HW_2" />
-      <option name="MAIN_CLASS_NAME" value="HW_2.VehicleTest" />
-      <option name="METHOD_NAME" value="has4Wheels" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.isTypeVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Home_work_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HW_2" />
-      <option name="MAIN_CLASS_NAME" value="HW_2.VehicleTest" />
-      <option name="METHOD_NAME" value="isTypeVehicle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,13 +152,17 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContactServiceTest.getContactByName" />
+        <item itemvalue="JUnit.ContactServiceTest" />
         <item itemvalue="JUnit.BookServiceTest" />
         <item itemvalue="JUnit.VehicleTest.testSpeedInParkMoto" />
         <item itemvalue="JUnit.VehicleTest.has2Wheels" />
-        <item itemvalue="JUnit.VehicleTest.has4Wheels" />
-        <item itemvalue="JUnit.VehicleTest.isTypeVehicle" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="FluentLenium" />
+    <option name="lastLanguageId" value="JAVA" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -177,6 +184,7 @@
       <workItem from="1703589867171" duration="1196000" />
       <workItem from="1703801240887" duration="813000" />
       <workItem from="1704185167996" duration="2855000" />
+      <workItem from="1704191404187" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="Home work 2">
       <option name="closed" value="true" />
