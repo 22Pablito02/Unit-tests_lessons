@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="45e76204-7faa-49b7-8ec8-15dc1392a121" name="Changes" comment="Home work 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_3/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_3/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_3/task3/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_3/task3/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HW_3/Task1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HW_3/Task2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HW_3/task3/UserRepositoryTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +45,7 @@
     "JUnit.BookServiceTest.executor": "Run",
     "JUnit.ContactServiceTest.executor": "Run",
     "JUnit.ContactServiceTest.getContactByName.executor": "Run",
+    "JUnit.ListServiceTest.executor": "Coverage",
     "JUnit.ShopTest.executor": "Run",
     "JUnit.ShopTest.getMostExpensiveProduct.executor": "Run",
     "JUnit.VehicleTest.has2Wheels.executor": "Run",
@@ -65,13 +74,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavel\Desktop\Учеба\Курсы\Unit-tests_lessons\Home_work_1\src\test\java\HW_6" />
       <recent name="C:\Users\Pavel\Desktop\Учеба\Курсы\Unit-tests_lessons\Home_work_1\src\test\java\HW_5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="HW_1.Calculations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContactServiceTest.getContactByName">
+  <component name="RunManager" selected="JUnit.ListServiceTest">
     <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Home_work_1" />
       <extension name="coverage">
@@ -118,18 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.has2Wheels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Home_work_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW_2.*" />
+          <option name="PATTERN" value="HW_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HW_2" />
-      <option name="MAIN_CLASS_NAME" value="HW_2.VehicleTest" />
-      <option name="METHOD_NAME" value="has2Wheels" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="HW_6" />
+      <option name="MAIN_CLASS_NAME" value="HW_6.ListServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListServiceTest" />
         <item itemvalue="JUnit.ContactServiceTest.getContactByName" />
         <item itemvalue="JUnit.ContactServiceTest" />
         <item itemvalue="JUnit.BookServiceTest" />
         <item itemvalue="JUnit.VehicleTest.testSpeedInParkMoto" />
-        <item itemvalue="JUnit.VehicleTest.has2Wheels" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +194,7 @@
       <workItem from="1703801240887" duration="813000" />
       <workItem from="1704185167996" duration="2855000" />
       <workItem from="1704191404187" duration="918000" />
+      <workItem from="1704192386939" duration="1077000" />
     </task>
     <task id="LOCAL-00001" summary="Home work 2">
       <option name="closed" value="true" />
@@ -218,6 +228,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Home_work_1$VehicleTest_testSpeedInParkCar.ic" NAME="VehicleTest.testSpeedInParkCar Coverage Results" MODIFIED="1703590426456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>HW_2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Home_work_1$ListServiceTest.ic" NAME="ListServiceTest Coverage Results" MODIFIED="1704193342508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>HW_6.*</FILTER>
     </SUITE>
   </component>
 </project>
